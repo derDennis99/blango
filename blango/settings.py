@@ -66,6 +66,8 @@ class Dev(Configuration):
         'allauth.socialaccount',
         # Add the provider modules that you’re using for authentication.
         'allauth.socialaccount.providers.google',
+        
+        'rest_framework',
     ]
 
     MIDDLEWARE = [
